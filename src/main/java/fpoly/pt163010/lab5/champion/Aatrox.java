@@ -11,8 +11,10 @@ import fpoly.pt163010.lab5.LOLChampion;
 /**
  *
  * @author phongtt
+ * @desription Đây là class mẫu
  */
-public class Aatrox extends LOLChampion implements IPhysicalAttack {
+public class Aatrox extends LOLChampion // Đối tượng là tướng LOL
+        implements IPhysicalAttack { // Đối tượng là tướng vật lý
 
     @Override
     public LOLChampion Build() {
@@ -22,7 +24,7 @@ public class Aatrox extends LOLChampion implements IPhysicalAttack {
                 .setAttack(60)
                 .setHealth(580)
                 .setMoveSpeed(345);
-        
+        // Còn thiếu thông tin ReleaseDate
     }
 
     @Override

@@ -10,6 +10,7 @@ import java.util.Date;
 /**
  *
  * @author phongtt
+ * @description Đây là khuôn mẫu cho các tướng
  */
 public abstract class LOLChampion {
     private String name;
