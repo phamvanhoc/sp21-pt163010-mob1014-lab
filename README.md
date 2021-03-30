@@ -1,2 +1,2 @@
-# sp21-pt163010-mob1014-lab
+# MOB1014 - LAB
 Làm quen với OOP
