@@ -20,6 +20,7 @@ public class Aatrox extends LOLChampion // Đối tượng là tướng LOL
     public LOLChampion Build() {
         return new Aatrox()
                 .setName("Aatrox")
+                .setCreator("PhongTT35")
                 .setArmor(38.0)
                 .setAttack(60)
                 .setHealth(580)

@@ -19,6 +19,7 @@ public abstract class LOLChampion {
     private Integer moveSpeed;
     private Double armor;
     private Date releaseDate;
+    private String creator;
 
     public LOLChampion() {
         
@@ -80,11 +81,23 @@ public abstract class LOLChampion {
         return this;
     }
 
+    public String getCreator() {
+        return creator;
+    }
+
+    public LOLChampion setCreator(String creator) {
+        this.creator = creator;
+        return this;
+    }
+    
     @Override
     public String toString() {
         return "LOLChampion{" + "name=" + name + ", "
-                + "health=" + health + ", attack=" + attack + ", "
-                + "moveSpeed=" + moveSpeed + ", armor=" + armor + ", "
+                + "health=" + health + ", "
+                + "attack=" + attack + ", "
+                + "moveSpeed=" + moveSpeed + ", "
+                + "armor=" + armor + ", "
+                + "creator=" + creator + ", "
                 + "releaseDate=" + releaseDate + '}';
     }
 }
